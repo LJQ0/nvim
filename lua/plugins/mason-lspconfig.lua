@@ -10,7 +10,13 @@ return {
           package_pending = "➜",
           package_uninstalled = "✗"
         }
-      }
+      },
+      -- pip = {
+      --       upgrade_pip = false,
+      --       install_args = {
+      --           "codelldb"
+      --       }
+      --   }
     }
 
     -- mason-lspconfig 配置
